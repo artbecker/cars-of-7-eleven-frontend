@@ -1,0 +1,29 @@
+.like-button {
+  width: 24px;
+  height: 30px;
+  border: none;
+  background-color: #ff6c00;
+  mask-image: url(../images/gulp-empty.svg);
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.like-button:hover {
+  background-color: #ec0f2a;
+}
+
+.like-button_active {
+  width: 24px;
+  height: 30px;
+  border: none;
+  background-color: #147350;
+  mask-image: url(../images/gulp-full.svg);
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  cursor: pointer;
+  flex-shrink: 0;
+}

@@ -1,0 +1,25 @@
+.stripes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  gap: 15%;
+}
+
+.stripes__orange {
+  background-color: #ff6c00;
+  opacity: 0.8;
+  height: 15%;
+}
+
+.stripes__green {
+  background-color: #147350;
+  opacity: 0.8;
+  height: 30%;
+}
+.stripes__red {
+  background-color: #ec0f2a;
+  opacity: 0.8;
+  height: 15%;
+}
