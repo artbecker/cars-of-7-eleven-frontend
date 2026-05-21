@@ -1,0 +1,14 @@
+.button {
+  min-width: 200px;
+  margin-top: 40px;
+  padding: 24px;
+  background-color: #ff6c00;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0 10px #ff6c00;
+}
+
+.button:hover {
+  background-color: #ec0f2a;
+  box-shadow: 0 0 10px #ec0f2a;
+}

@@ -1,0 +1,20 @@
+.gallery {
+  max-width: 1080px;
+  padding-top: 20vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 17px;
+}
+
+@media screen and (max-width: 1024px) {
+  .gallery {
+    padding: 120px 30px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .gallery {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

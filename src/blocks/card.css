@@ -1,0 +1,67 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+.card__header {
+  padding: 15px 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  background-image: linear-gradient(#ccc, white, white, #ccc);
+}
+
+.card__author {
+  width: 80%;
+  color: #147350;
+  font-weight: 900;
+  font-size: 18px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.card__logo {
+  max-height: 20px;
+}
+
+.card__image {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.card__image:hover {
+  filter: brightness(60%);
+  overflow: hidden;
+}
+
+.card__footer {
+  padding: 15px 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #147350;
+  background-image: linear-gradient(#ccc, white, white, #ccc);
+}
+
+.card__title {
+  width: 60%;
+  color: #147350;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.card__stripes-container {
+  width: 100%;
+  height: 70%;
+}
