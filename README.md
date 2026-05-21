@@ -5,8 +5,9 @@ A car photography sharing platform built with React, featuring Tumblr API integr
 ## 🌟 Features
 
 - **Photo Fetching**: Fetch tagged photos via API from Tumblr
-- **Social Interactions**: Like photos
+- **Social Interactions**: Like photos (only visual, not updating the backend)
 - **Responsive Design**: Optimized for desktop and mobile devices
+- **User Info**: It is only mocked, for future updates with auth features
 
 ## 🛠️ Technologies Used
 
